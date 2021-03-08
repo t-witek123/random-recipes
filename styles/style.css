@@ -1,0 +1,107 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0px auto;
+}
+
+/* END OF COMMON */
+
+/* NAV BAR */
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    list-style: none;
+}
+
+.nav__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    min-width: 125px;
+    color: coral;
+    text-decoration: none;
+}
+
+/* END OF NAV BAR */
+
+/* HERO AREA */
+
+.hero {
+    height: 400px;
+    width: 100%;
+    background-image: url(../img/pexels-edward-eyer-1049626.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+/* END OF HERO AREA */
+
+/* SEARCH AREA */
+
+.search-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    background-color: gray;
+    margin: auto;
+}
+
+.search-bar {
+    margin: auto;
+    min-height: 30px;
+    min-width: 350px;
+}
+
+.btn {
+    min-height: 30px;
+    min-width: 100px;
+}
+
+/* END OF SEARCH AREA */
+
+/* CATEGORIES AREA */
+
+.categories-bar{
+    background-color: burlywood;
+}
+.categories-container {
+    display: flex;
+    padding-top: 2rem;
+}
+.choose-category {
+    flex-basis: 20%;
+    padding: 1.5rem;
+    text-align: center;
+    color: rgb(230, 228, 228);
+}
+ .img {
+    width: 60px;
+    height: 60px;
+}
+
+/* END OF CATEGORIES AREA */
+
+/* FOOTER */
+
+/* END OF FOOTER */
