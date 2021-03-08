@@ -104,4 +104,24 @@ html, body {
 
 /* FOOTER */
 
+.footer {
+    background-color:black;
+    margin-top: 0;
+    padding: 1rem;
+}
+
+.info {
+    margin: 0;
+}
+
+.info-paragraph {
+    color: white;
+    margin-top: 0;
+} 
+.icon-img {
+    width: 20px;
+    height: 20px;
+    padding: 0.5rem;
+}
+
 /* END OF FOOTER */
