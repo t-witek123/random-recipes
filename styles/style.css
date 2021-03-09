@@ -105,14 +105,11 @@ html, body {
 /*FEATURES */
 
 .features {
-    
     background-color: blanchedalmond;
-    
 }
 .recipes-container {
     display: flex;
     padding: 2rem;
-    text-align: center;
 }
 .recipe-container {
     flex-basis: 33.333%;
@@ -121,9 +118,10 @@ html, body {
     color:blueviolet ;
 }
 
-.recipe-image {
+.recipe-img {
     height: 200px;
     width: 200px;
+    border-radius: 25%;
 }
 /* END OF FEATURES */
 
