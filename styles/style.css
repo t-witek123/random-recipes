@@ -102,6 +102,31 @@ html, body {
 
 /* END OF CATEGORIES AREA */
 
+/*FEATURES */
+
+.features {
+    
+    background-color: blanchedalmond;
+    
+}
+.recipes-container {
+    display: flex;
+    padding: 2rem;
+    text-align: center;
+}
+.recipe-container {
+    flex-basis: 33.333%;
+    padding: 1.5rem;
+    text-align: center;
+    color:blueviolet ;
+}
+
+.recipe-image {
+    height: 200px;
+    width: 200px;
+}
+/* END OF FEATURES */
+
 /* FOOTER */
 
 .footer {
@@ -125,3 +150,4 @@ html, body {
 }
 
 /* END OF FOOTER */
+
