@@ -1,14 +1,12 @@
 html, body {
+    overflow-x: hidden;
+
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
     color: black;
 }
 
-.container {
-    max-width: 1024px;
-    margin: 0px auto;
-}
 
 /* END OF COMMON */
 
@@ -62,7 +60,6 @@ html, body {
     align-items: center;
     justify-content: center;
     height: 80px;
-    width: 100%;
     background-color: gray;
     margin: auto;
 }
@@ -70,7 +67,7 @@ html, body {
 .search-bar {
     margin: auto;
     min-height: 30px;
-    min-width: 350px;
+    min-width: 300px;
 }
 
 .btn {
@@ -86,7 +83,6 @@ html, body {
     background-color: burlywood;
 }
 .categories-container {
-    display: flex;
     padding-top: 2rem;
 }
 .choose-category {

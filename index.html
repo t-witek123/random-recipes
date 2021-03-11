@@ -15,6 +15,10 @@
     >
     <link
         rel="stylesheet"
+        href="./styles/grid.css"
+    >
+    <link
+        rel="stylesheet"
         href="./styles/style.css"
     >
     <script
@@ -30,7 +34,7 @@
         class="nav"
         id="nav"
     >
-        <nav class="container">
+        <nav class="container container--fixed">
             <ul class="nav__links">
                 <a
                     class="nav__link"
@@ -68,24 +72,29 @@
     </div>
 
     <div
-        class="search-area container"
+        class="search-area container--fixed"
         id="search-area"
     >
         <div class="input_area container">
-            <input
-                class="search-bar"
-                type="text"
-                name="some-text"
-                placeholder="What do you want to find"
-            >
-            <button class="btn">Search</button>
+            <div class="search">
+                <input
+                    class="search-bar"
+                    type="text"
+                    name="some-text"
+                    placeholder="What do you want to find"
+                >
+            </div>
+            <div class="button-search">
+                <button class="btn">Search</button>
+            </div>
+
         </div>
 
     </div>
 
     <div class="categories-bar">
-        <div class="categories-container container">
-            <div class="choose-category">
+        <div class="categories-container container container--fixed">
+            <div class="choose-category col xs-6 md-2-5">
                 <div class="category-img">
                     <img
                         class="img"
@@ -95,7 +104,7 @@
                 </div>
                 <h4>Śniadania </h4>
             </div>
-            <div class="choose-category">
+            <div class="choose-category col xs-6 md-2-5">
                 <div class="category-img">
                     <img
                         class="img"
@@ -105,7 +114,7 @@
                 </div>
                 <h4>Desery </h4>
             </div>
-            <div class="choose-category">
+            <div class="choose-category col xs-6 md-2-5">
                 <div class="category-img">
                     <img
                         class="img"
@@ -116,7 +125,7 @@
                 <h4>Obiady </h4>
 
             </div>
-            <div class="choose-category">
+            <div class="choose-category col xs-6 md-2-5">
                 <div class="category-img">
                     <img
                         class="img"
@@ -126,7 +135,7 @@
                 </div>
                 <h4>Ciasta</h4>
             </div>
-            <div class="choose-category">
+            <div class="choose-category col xs-12 md-2-5">
                 <div class="category-img">
                     <img
                         class="img"
@@ -140,10 +149,10 @@
     </div>
 
     <div class="features-container">
-        <div class="features container">
-            <div class="recipes-container">
+        <div class="features container--fixed">
+            <div class="recipes-container container">
 
-                <div class="recipe-container">
+                <div class="recipe-container col xs-12 md-4">
                     <div class="recipe-image--square">
                         <img
                             class="recipe-img"
@@ -154,7 +163,7 @@
                     <h4 class="resipe-description">Smażony ryż z kurczakiem</h4>
                 </div>
 
-                <div class="recipe-container">
+                <div class="recipe-container col xs-12 md-4">
                     <div class="recipe-image--square">
                         <img
                             class="recipe-img"
@@ -165,7 +174,7 @@
                     <h4 class="resipe-description">Smażony ryż z kurczakiem</h4>
                 </div>
 
-                <div class="recipe-container">
+                <div class="recipe-container col xs-12 md-4">
                     <div class="recipe-image--square">
                         <img
                             class="recipe-img"
@@ -178,10 +187,10 @@
 
             </div>
         </div>
-        <div class="features container">
-            <div class="recipes-container">
+        <div class="features container--fixed">
+            <div class="recipes-container container">
 
-                <div class="recipe-container">
+                <div class="recipe-container col xs-12 md-4">
                     <div class="recipe-image--square">
                         <img
                             class="recipe-img"
@@ -192,7 +201,7 @@
                     <h4 class="resipe-description">Smażony ryż z kurczakiem</h4>
                 </div>
 
-                <div class="recipe-container">
+                <div class="recipe-container col xs-12 md-4">
                     <div class="recipe-image--square">
                         <img
                             class="recipe-img"
@@ -203,7 +212,7 @@
                     <h4 class="resipe-description">Smażony ryż z kurczakiem</h4>
                 </div>
 
-                <div class="recipe-container">
+                <div class="recipe-container col xs-12 md-4">
                     <div class="recipe-image--square">
                         <img
                             class="recipe-img"
@@ -221,7 +230,7 @@
 
 
     <div class="footer">
-        <div class="info container">
+        <div class="info container container--fixed">
             <p class="info-paragraph">
                 You can find me at:
             </p>
