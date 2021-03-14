@@ -19,24 +19,50 @@ html, body {
     width: 100%;
     background-color: blanchedalmond;
 }
-
 .nav__links {
     display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
     justify-content: center;
     margin: 0;
     list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+
+.nav__links--active .nav__link{
+    display: flex;
 }
 
 .nav__link {
-    display: flex;
+    display: none;
+    flex-basis: 100%;
     justify-content: center;
     align-items: center;
     height: 50px;
-    min-width: 125px;
+    min-width: 150px;
+    
     color: coral;
     text-decoration: none;
 }
 
+.nav__link-menu{
+    display: flex;
+}
+
+@media (min-width:768px){
+    .nav__links{
+        flex-wrap: initial;
+        flex-basis: initial;
+    }
+    .nav__link{
+        display: flex;
+    }
+    .nav__links--active .nav__link-menu, .nav__link-menu {
+        display: none;
+    }
+}
 /* END OF NAV BAR */
 
 /* HERO AREA */
