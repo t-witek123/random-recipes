@@ -1,7 +1,7 @@
 var element = document.querySelector(".nav__links");
 
 
-/* Activate Submenu */
+// Activate Sub-menu function
 
 
 function toggleItem() {
@@ -15,5 +15,6 @@ function toggleItem() {
 element.addEventListener(
     "click",
     toggleItem
-    )
-    
+)
+
+// End of Activate Sub-menu function :)  
